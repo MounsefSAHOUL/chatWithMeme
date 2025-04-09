@@ -1,27 +1,22 @@
 {
   "expo": {
     "name": "chatWithMeme",
-    "slug": "chatWithMeme",
+    "slug": "chat-with-meme",
     "version": "1.0.0",
-
     "scheme": "chatWithMeme",
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/favicon.png"
     },
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -35,7 +30,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.mounsefsahoul.chatWithMeme"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3611c0a6-e7cf-4e9f-a715-8a150dfb0781"
       }
-    }
+    },
+    "owner": "mounsefsahoul"
   }
 }
